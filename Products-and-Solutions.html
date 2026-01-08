@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en-CA"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Products and&nbsp;Solutions</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Products-and-Solutions.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Westside Union",
+		"logo": "images/2014westside_union_logo_white11.png",
+		"sameAs": [
+				"https://www.instagram.com/westsideunion?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+				"https://www.linkedin.com/company/westside-union/",
+				"https://www.crunchbase.com/organization/westside-union"
+		]
+}</script>
+    <meta name="theme-color" content="#0cbcf5">
+    <meta property="og:title" content="Products and&nbsp;Solutions">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  <script>function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");
+o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,
+o.onload=function(){window.trackingFunctions.onLoad({appId:"690ca865f830ab00215874c3"})},
+document.head.appendChild(o)}initApollo();</script><meta name="referrer" content="origin"><script>
+    window.recaptchaRenderedV2 = false;
+    window.recaptchaFallback = false;
+    window.recaptchaSiteKeyV2 = '6LdfeIwrAAAAAMnDkaIExdHsV0Nsj8y-CU9AyTjZ';
+
+    function gdprConfirmed() {
+        return true;
+    }
+
+    function dynamicLoadScript() {
+        var script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js?render=6LfhtqsqAAAAAIKXmi7jpBvu3yfi3GiKTk47JKQy';
+        script.async = true;
+        script.onload = function () {
+            var event = new CustomEvent("recaptchaLoaded");
+            document.dispatchEvent(event);
+        };
+        document.body.appendChild(script);
+    }
+
+    function showRecaptchaError(error) {
+        error = error || '';
+        var formError = document.querySelector('.u-form-send-error');
+
+        if (formError) {
+            formError.innerText = 'Site Owner Error: ' + error.replace(/:[\s\S]*/, '');
+            formError.style.display = 'block';
+        }
+
+        console.error('Error in grecaptcha: ', error);
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmButtons = document.querySelectorAll('.u-cookies-consent .u-button-confirm');
+        confirmButtons.forEach(function (button) {
+            button.onclick = dynamicLoadScript;
+        });
+    });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            if (!gdprConfirmed()) {
+                return;
+            }
+            dynamicLoadScript();
+        });
+    </script>
+
+    <script>
+        document.addEventListener("recaptchaLoaded", function() {
+            if (!gdprConfirmed()) {
+                return;
+            }
+
+            (function (grecaptcha, sitekey, actions) {
+                var recaptcha = {
+                    execute: function (action, submitFormCb) {
+                        if (typeof grecaptcha === 'undefined' || typeof grecaptcha.execute !== 'function') {
+                            showRecaptchaError('reCAPTCHA script failed to load.');
+                            return;
+                        }
+
+                        try {
+                            grecaptcha.execute(sitekey, {action: action}).then((token) => {
+                                if (!token) {
+                                    throw new Error('Empty token received from reCAPTCHA');
+                                }
+
+                                var forms = document.getElementsByTagName('form');
+
+                                for (var i = 0; i < forms.length; i++) {
+                                    var response = forms[i].querySelector('[name="recaptchaResponse"]');
+
+                                    if (!response) {
+                                        response = document.createElement('input');
+                                        response.setAttribute('type', 'hidden');
+                                        response.setAttribute('name', 'recaptchaResponse');
+                                        forms[i].appendChild(response);
+                                    }
+
+                                    response.value = token;
+                                }
+
+                                submitFormCb();
+                            }).catch((e) => {
+                                showRecaptchaError(e.message);
+                            });
+                        } catch (e) {
+                            showRecaptchaError(e.message);
+                        }
+                    },
+
+                    executeContact: function (submitFormCb) {
+                        recaptcha.execute(actions['contact'], submitFormCb);
+                    }
+                };
+
+                window.recaptchaObject = recaptcha;
+                window.grecaptchaObject = grecaptcha;
+            })(
+                grecaptcha,
+                
+                '6LfhtqsqAAAAAIKXmi7jpBvu3yfi3GiKTk47JKQy',
+                {'contact': 'contact'}
+            );
+        });
+    </script>
+
+    <script>
+    window.showRecaptchaV2 = function (form) {
+        if (!form || !form.length) {
+            return;
+        }
+        if (typeof window.grecaptchaObject === 'undefined' || !window.grecaptchaObject) {
+            return;
+        }
+
+        const formEl = form[0];
+
+        let container = document.getElementById('recaptcha-v2-container');
+        if (!container) {
+            container = document.createElement('div');
+            container.id = 'recaptcha-v2-container';
+            formEl.parentElement.appendChild(container);
+        }
+
+        let tokenReceived = false;
+        let timeoutHandle;
+
+        if (window.recaptchaRenderedV2 === false || typeof window.recaptchaRenderedV2 === 'undefined') {
+            window.recaptchaRenderedV2 = window.grecaptchaObject.render('recaptcha-v2-container', {
+                'sitekey': window.recaptchaSiteKeyV2,
+                'size': 'invisible',
+                'callback': function (token) {
+                    clearTimeout(timeoutHandle);
+
+                    if (!token) {
+                        showRecaptchaError('reCAPTCHA v2 token was empty. Please try again.');
+                        return;
+                    }
+
+                    tokenReceived = true;
+
+                    let recaptchaResponseV2 = formEl.querySelector('input[name="recaptchaResponseV2"]');
+
+                    if (!recaptchaResponseV2) {
+                        recaptchaResponseV2 = document.createElement('input');
+                        recaptchaResponseV2.type = 'hidden';
+                        recaptchaResponseV2.name = 'recaptchaResponseV2';
+                        formEl.appendChild(recaptchaResponseV2);
+                    }
+
+                    recaptchaResponseV2.value = token;
+
+                    if (window.recaptchaSiteKeyV2) {
+                        let siteKeyInput = formEl.querySelector('input[name="siteKey"]');
+
+                        if (siteKeyInput) {
+                            siteKeyInput.value = window.recaptchaSiteKeyV2;
+                        }
+                    }
+
+                    document.querySelectorAll('.u-form-send-error').forEach(el => {
+                        el.style.display = 'none';
+                    });
+
+                    const event = new CustomEvent('submit', {
+                        detail: { recaptchaPassed: true },
+                        bubbles: true,
+                        cancelable: true,
+                    });
+
+                    formEl.dispatchEvent(event);
+                },
+                'error-callback': function () {
+                    clearTimeout(timeoutHandle);
+                    showRecaptchaError('reCAPTCHA v2 error. Please try again.');
+                },
+                'expired-callback': function () {
+                    clearTimeout(timeoutHandle);
+                }
+            });
+
+            window.grecaptchaObject.reset(window.recaptchaRenderedV2);
+
+            setTimeout(() => {
+                window.grecaptchaObject.execute(window.recaptchaRenderedV2);
+            }, 300);
+
+            timeoutHandle = setTimeout(function () {
+                if (!tokenReceived) {
+                    showRecaptchaError('The Contact Form could not be submitted because Google reCAPTCHA v3 detected unusual activity from your connection. Please try again later, or complete the reCAPTCHA v2 challenge if it appears.');
+                }
+            }, 120000);
+        } else {
+            window.grecaptchaObject.reset(window.recaptchaRenderedV2);
+
+            setTimeout(() => {
+                window.grecaptchaObject.execute(window.recaptchaRenderedV2);
+            }, 300);
+        }
+    };
+    </script>
+<meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en"><header class="u-clearfix u-grey-90 u-header u-header" id="sec-8645"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="#" class="u-image u-logo u-image-1" data-image-width="2174" data-image-height="2174">
+          <img src="images/2014westside_union_logo_white11.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-align-left u-menu u-menu-one-level u-offcanvas u-menu-1" role="navigation">
+          <div class="menu-collapse" style="font-size: 1rem;">
+            <a class="u-button-style u-custom-color u-hamburger-link u-nav-link" href="#" tabindex="-1" aria-label="Open menu" aria-controls="6a2d">
+              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xlink:href="#svg-8a8f"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-8a8f" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="./" style="padding: 10px 20px;">Home</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 20px;">About</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="./#carousel_7177" data-page-id="70634652" style="padding: 10px 20px;">Services</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Products-and-Solutions.html" style="padding: 10px 20px;">Products/Solutions</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="blog/blog.html" style="padding: 10px 20px;">Research</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="./#sec-db95" data-page-id="70634652" style="padding: 10px 20px;">Contact</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse" id="6a2d" role="region" aria-label="Menu panel">
+            <div class="u-align-center u-black u-container-align-center u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="./">Home</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="About.html">About</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-nav-link" href="./#carousel_7177" data-page-id="70634652">Services</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Products-and-Solutions.html">Products/Solutions</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="blog/blog.html">Research</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-nav-link" href="./#sec-db95" data-page-id="70634652">Contact</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-grey-5 u-section-1" id="sec-6ca0">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-1" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings">Products and&nbsp;Solutions</h1>
+        <p class="u-text u-text-2" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings"> Intelligence that scales with you, our future-proof solution for your operations.</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-valign-middle u-section-2" id="sec-f0bc">
+      <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="864" data-image-height="1184">
+              <div class="u-container-layout u-container-layout-1"></div>
+            </div>
+            <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+              <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
+                <h2 class="u-text u-text-default u-text-1" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings">Rapid ID - ID Photo SaaS</h2>
+                <p class="u-text u-text-default u-text-2" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings"> Transform Your AI-powered Photo ID Service Into a Revenue Machine.<br>
+                  <br>Power your business with enterprise-grade ID photo automation. Our SaaS solution handles passport, visa, and government ID photos in seconds—with intelligent background removal, precision cropping, and built-in compliance validation across 100+ international formats.<br>
+                  <br>Perfect for:<br>- Print shops &amp; photo studios<br>- Courier &amp; postal services<br>- Travel agencies<br>- Government service centers<br>
+                  <br>Reduce processing time by 90%, eliminate rejections, and serve more customers without hiring additional staff. With no hardware limitations, all operations run on the cloud.
+                </p>
+                <div class="u-carousel u-carousel-duration-250 u-carousel-fade u-expanded-width u-form u-form-1" data-interval="0" data-u-ride="false" id="carousel-8505">
+                  <form action="https://service.nicepagesrv.com/form/v4/form-process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="Products Lead" style="padding: 10px;">
+                    <div class="u-carousel-inner" role="listbox">
+                      <div class="u-carousel-item u-form-step u-slide u-active">
+                        <div class="u-form-group u-form-name">
+                          <label for="name-ce8d" class="u-label">Name</label>
+                          <input type="text" placeholder="Enter your Name" id="name-ce8d" name="name" class="u-input u-input-rectangle" required="">
+                        </div>
+                        <div class="u-form-email u-form-group">
+                          <label for="email-ce8d" class="u-label">Email</label>
+                          <input type="email" placeholder="Enter a valid email address" id="email-ce8d" name="email" class="u-input u-input-rectangle" required="">
+                        </div>
+                        <div class="u-form-group u-form-group-3">
+                          <label for="text-11e7" class="u-label">Business Name</label>
+                          <input type="text" placeholder="Enter your business name" id="text-11e7" name="text" class="u-input u-input-rectangle" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings">
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-form-step u-slide">
+                        <div class="u-form-group u-form-group-4">
+                          <label for="text-dba3" class="u-label">Tell us about your business</label>
+                          <input type="text" placeholder="" id="text-dba3" name="text" class="u-input u-input-rectangle">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                      <a href="#" class="u-btn u-btn-step u-btn-step-prev u-button-style u-hidden">Back</a>
+                      <a href="#" class="u-btn u-btn-step u-btn-step-next u-button-style">Next</a>
+                      <a href="#" class="u-btn u-btn-submit u-button-style u-hidden">Submit</a>
+                      <input type="submit" value="submit" class="u-form-control-hidden">
+                    </div>
+                    <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                    <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                    <input type="hidden" name="formServices" value="416dfbf5-20cc-082e-66f5-b90632e40c7a;69c89f7a-0bdf-4283-80cc-6e60a1f84a0a">
+                    <input type="hidden" name="siteKey" value="6LfhtqsqAAAAAIKXmi7jpBvu3yfi3GiKTk47JKQy">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-valign-middle u-section-3" id="sec-08e3">
+      <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="1920" data-image-height="1280">
+              <div class="u-container-layout u-container-layout-1"></div>
+            </div>
+            <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+              <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
+                <h2 class="u-text u-text-default u-text-1" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings">WS Wallet Pass</h2>
+                <p class="u-text u-text-default u-text-2" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings"> Turn every shopper’s phone into your loyalty card with WS Wallet Pass—fully compatible with Apple &amp; Google Wallet, no app to download.&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                  <br>Send real-time, location-aware offers to the lock screen, nudge customers before a coupon or pass expires, and enjoy engagement that’s proven to outperform email by up to 10×.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                  <br>From digital loyalty cards to coupons and e-gift cards, Wallet Pass streamlines promotions, boosts repeat visits, and grows basket size—backed by Westside Union’s white-glove onboarding and ongoing optimization.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                </p>
+                <div class="u-carousel u-carousel-duration-250 u-carousel-fade u-expanded-width u-form u-form-1" data-interval="0" data-u-ride="false" id="carousel-4f69">
+                  <form action="https://service.nicepagesrv.com/form/v4/form-process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="Products Lead" style="padding: 10px;">
+                    <div class="u-carousel-inner" role="listbox">
+                      <div class="u-carousel-item u-form-step u-slide u-active">
+                        <div class="u-form-group u-form-name">
+                          <label for="name-ce8d" class="u-label">Name</label>
+                          <input type="text" placeholder="Enter your Name" id="name-ce8d" name="name" class="u-input u-input-rectangle" required="">
+                        </div>
+                        <div class="u-form-email u-form-group">
+                          <label for="email-ce8d" class="u-label">Email</label>
+                          <input type="email" placeholder="Enter a valid email address" id="email-ce8d" name="email" class="u-input u-input-rectangle" required="">
+                        </div>
+                        <div class="u-form-group u-form-group-3">
+                          <label for="text-11e7" class="u-label">Business Name</label>
+                          <input type="text" placeholder="Enter your business name" id="text-11e7" name="text" class="u-input u-input-rectangle" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings">
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-form-step u-slide">
+                        <div class="u-form-group u-form-group-4">
+                          <label for="text-dba3" class="u-label">Tell us about your business</label>
+                          <input type="text" placeholder="" id="text-dba3" name="text" class="u-input u-input-rectangle">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                      <a href="#" class="u-btn u-btn-step u-btn-step-prev u-button-style u-hidden">Back</a>
+                      <a href="#" class="u-btn u-btn-step u-btn-step-next u-button-style">Next</a>
+                      <a href="#" class="u-btn u-btn-submit u-button-style u-hidden">Submit</a>
+                      <input type="submit" value="submit" class="u-form-control-hidden">
+                    </div>
+                    <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+                    <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                    <input type="hidden" name="formServices" value="416dfbf5-20cc-082e-66f5-b90632e40c7a;69c89f7a-0bdf-4283-80cc-6e60a1f84a0a">
+                    <input type="hidden" name="siteKey" value="6LfhtqsqAAAAAIKXmi7jpBvu3yfi3GiKTk47JKQy">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-valign-middle u-section-4" id="sec-50a0">
+      <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="2500" data-image-height="1875">
+              <div class="u-container-layout u-container-layout-1"></div>
+            </div>
+            <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+              <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
+                <h2 class="u-text u-text-default u-text-1" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings"> Digital Billboard Ad Solutions</h2>
+                <p class="u-text u-text-default u-text-2" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings"> Combine innovation, strategy, and creativity to deliver campaigns that don’t just reach — they resonate.<br>
+                  <br>Key Features:<br> •	Real-Time Adaptability: Instantly update campaigns based on weather, events, traffic, or audience behavior.<br> •	Hyperlocal Targeting: Use GPS and geofencing to focus your message within specific neighborhoods or demographic zones.<br> •	Data-Driven Optimization: Access in-depth analytics — impressions, dwell time, engagement rates, and ROI tracking — to measure campaign success.<br> •	Nationwide Reach, Local Relevance: From Toronto’s downtown core to major airports and highways across Canada, we place your ads where they matter most.<br>
+                  <br>Why It Works:<br>Our campaigns deliver measurable results — from increasing restaurant foot traffic by 25% on Queen Street to boosting event attendance by 40% at Yonge-Dundas Square.<br>By combining real-time insights with strategic creative execution, we ensure every impression counts.<br>
+                </p>
+                <div class="u-carousel u-carousel-duration-250 u-carousel-fade u-expanded-width u-form u-form-1" data-interval="0" data-u-ride="false" id="carousel-945e">
+                  <form action="https://service.nicepagesrv.com/form/v4/form-process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="Products Lead" style="padding: 10px;">
+                    <div class="u-carousel-inner" role="listbox">
+                      <div class="u-carousel-item u-form-step u-slide u-active">
+                        <div class="u-form-group u-form-name">
+                          <label for="name-ce8d" class="u-label">Name</label>
+                          <input type="text" placeholder="Enter your Name" id="name-ce8d" name="name" class="u-input u-input-rectangle" required="">
+                        </div>
+                        <div class="u-form-email u-form-group">
+                          <label for="email-ce8d" class="u-label">Email</label>
+                          <input type="email" placeholder="Enter a valid email address" id="email-ce8d" name="email" class="u-input u-input-rectangle" required="">
+                        </div>
+                        <div class="u-form-group u-form-group-3">
+                          <label for="text-11e7" class="u-label">Business Name</label>
+                          <input type="text" placeholder="Enter your business name" id="text-11e7" name="text" class="u-input u-input-rectangle" spellcheck="false" aria-label="To enrich screen reader interactions, please activate Accessibility in Grammarly extension settings">
+                        </div>
+                      </div>
+                      <div class="u-carousel-item u-form-step u-slide">
+                        <div class="u-form-group u-form-group-4">
+                          <label for="text-dba3" class="u-label">Tell us about your business</label>
+                          <input type="text" placeholder="" id="text-dba3" name="text" class="u-input u-input-rectangle">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                      <a href="#" class="u-btn u-btn-step u-btn-step-prev u-button-style u-hidden">Back</a>
+                      <a href="#" class="u-btn u-btn-step u-btn-step-next u-button-style">Next</a>
+                      <a href="#" class="u-btn u-btn-submit u-button-style u-hidden">Submit</a>
+                      <input type="submit" value="submit" class="u-form-control-hidden">
+                    </div>
+                    <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+                    <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                    <input type="hidden" name="formServices" value="416dfbf5-20cc-082e-66f5-b90632e40c7a;69c89f7a-0bdf-4283-80cc-6e60a1f84a0a">
+                    <input type="hidden" name="siteKey" value="6LfhtqsqAAAAAIKXmi7jpBvu3yfi3GiKTk47JKQy">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-grey-5 u-hidden u-section-5" src="" id="sec-9bc2">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="custom-expanded u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-1">
+              <div class="u-container-layout u-similar-container u-valign-top-sm u-valign-top-xs u-container-layout-1">
+                <div class="u-clearfix u-expanded-width u-group-elements u-hover-feature u-group-elements-1" data-href="#" title="Design Service"><span class="u-align-center u-file-icon u-icon u-text-black u-icon-1"><img src="images/5149019-3492b7cd.png" alt=""></span>
+                  <h3 class="u-align-center u-text u-text-1">Design</h3>
+                </div>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-2">
+              <div class="u-container-layout u-similar-container u-valign-top-sm u-valign-top-xs u-container-layout-2">
+                <div class="u-clearfix u-expanded-width u-group-elements u-hover-feature u-group-elements-2" data-href="Development-Service.html" data-page-id="91545432" title="Development Service"><span class="u-align-center u-file-icon u-icon u-text-black u-icon-2"><img src="images/9078398-ca0b7188.png" alt=""></span>
+                  <h3 class="u-align-center u-text u-text-2"> Development</h3>
+                </div>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-3">
+              <div class="u-container-layout u-similar-container u-valign-top-sm u-valign-top-xs u-container-layout-3">
+                <div class="u-clearfix u-expanded-width u-group-elements u-hover-feature u-group-elements-3"><span class="u-align-center u-file-icon u-icon u-text-black u-icon-3"><img src="images/2205491-91ea294c.png" alt=""></span>
+                  <h3 class="u-align-center u-text u-text-3">Multimedia</h3>
+                </div>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-4">
+              <div class="u-container-layout u-similar-container u-valign-top-sm u-valign-top-xs u-container-layout-4">
+                <div class="u-clearfix u-expanded-width u-group-elements u-hover-feature u-group-elements-4" data-href="Consulting-Service.html" data-page-id="54948179" title="Consulting Service"><span class="u-align-center u-file-icon u-icon u-text-black u-icon-4"><img src="images/16332672-398f5031.png" alt=""></span>
+                  <h3 class="u-align-center u-text u-text-4"> consulting</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+    </section>
+    <section class="u-clearfix u-image u-section-6" id="block-1">
+      <div class="u-clearfix u-sheet u-sheet-1"></div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-container-align-center u-footer u-grey-90 u-footer" id="sec-8cd7"><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-social-icons u-social-icons-1">
+          <a class="u-social-url" title="Instagram" target="_blank" href="https://www.instagram.com/westsideunion?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw=="><span class="u-icon u-social-icon u-social-instagram u-text-palette-1-base"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-7bac"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-7bac"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+      z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
+      C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
+      c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
+          </a>
+          <a class="u-social-url" target="_blank" data-type="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/company/westside-union/"><span class="u-icon u-social-icon u-social-linkedin u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-1800"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-1800"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M41.3,83.7H27.9V43.4h13.4V83.7z M34.6,37.9L34.6,37.9c-4.6,0-7.5-3.1-7.5-7c0-4,3-7,7.6-7s7.4,3,7.5,7
+      C42.2,34.8,39.2,37.9,34.6,37.9z M89.6,83.7H76.2V62.2c0-5.4-1.9-9.1-6.8-9.1c-3.7,0-5.9,2.5-6.9,4.9c-0.4,0.9-0.4,2.1-0.4,3.3v22.5
+      H48.7c0,0,0.2-36.5,0-40.3h13.4v5.7c1.8-2.7,5-6.7,12.1-6.7c8.8,0,15.4,5.8,15.4,18.1V83.7z"></path></svg></span>
+          </a>
+          <a class="u-social-url" target="_blank" data-type="Crunchbase" title="Crunchbase" href="https://www.crunchbase.com/organization/westside-union"><span class="u-icon u-social-crunchbase u-social-icon u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-fab5"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-fab5"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M41.6,63.2c-2.8,6-9.8,8.5-15.8,5.7c-6-2.8-8.5-9.8-5.7-15.8s9.8-8.5,15.8-5.7c2.6,1.2,4.7,3.4,5.9,6.1H51
+	c-2.7-11.1-13.9-18-25-15.2C14.8,41,7.9,52.1,10.6,63.2s13.9,18,25,15.2c7.6-1.8,13.4-7.7,15.2-15.2H41.6L41.6,63.2z M79.9,37.6
+	h-1.5c-3.7,0.3-7.2,1.5-10.1,3.6V18h-8.4v59.3h8.4v-2.2c9.3,6.6,22.3,4.4,28.9-5.1c6.6-9.3,4.4-22.2-5.1-28.9
+	C88.6,38.8,84.3,37.5,79.9,37.6z M91.8,59.7v0.4c-0.1,0.5-0.2,1-0.3,1.5c-0.2,0.5-0.4,1-0.6,1.5v0.1c-1.6,3.4-4.7,5.8-8.3,6.6
+	l-1.1,0.2h-0.3c-0.4,0-0.9,0-1.3,0c-0.5,0-1.1,0-1.6-0.1h-0.4c-1-0.2-2.1-0.5-3-0.9h-0.2c-1-0.5-1.9-1.1-2.7-1.8
+	c-0.8-0.7-2.4-1.6-3-2.5c-0.3-0.5,0.4-1,0.1-1.5c-1.4-3.1-1.3-6.7,0.1-9.7c1.8-3.8,5.4-6.4,9.5-6.8c0.4,0,0.8,0,1.2,0
+	c6.4,0.1,11.5,5.2,11.7,11.5C91.9,58.6,91.9,59.2,91.8,59.7L91.8,59.7z"></path></svg></span>
+          </a>
+        </div>
+        <p class="u-small-text u-text u-text-variant u-text-1" spellcheck="false">Toronto | San Francisco<br>
+          <br>Copyright © 2009-2025 Westside Union Crop. All Rights Reserved.
+        </p>
+      </div></footer>
+  
+</body></html>
